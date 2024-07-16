@@ -16,6 +16,12 @@
 4. prepare default sharing account
    `echo 'DEFAULT_SHARE_ACCOUNT = "xxxxxxxxxxxxxxxxxxxx@gmail.com" > gcloud/default_sharing_account.py`
 
+5. install
+   - better create a virtual environment
+     - python -m venv gcloud_venv
+     - source gcloud_venv/bin/activate
+     - pip install -r requirements
+
 # Usage
 
 
